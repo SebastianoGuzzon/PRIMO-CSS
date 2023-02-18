@@ -7,25 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Primo css</title>
   <style type="text/css">
-
-    /* COMMENTO CSS */
-
-    /* questi stili sono commentati perché usaimo un foglio di stile esterno */
-
-    /*
-    body{
-      color:darkcyan;
-    }
-
-    #testo-principale{
-      color: blueviolet;
-    }
-
-    .testo-secondario{
-      color: cadetblue;
-    }
-    */
-  </style>
+ </style>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,8 +19,16 @@
 
 </head>
 <body>
-
-  <h1>Primo CSS</h1>
+  <header>
+    <nav class="menu">
+      <ul>
+        <li><a href="#"></a>home</li>
+      <li><a href="#"></a>chi siamo</li>
+      <li><a href="#"></a>contatti</li>
+    </ul>
+    </nav>
+  </header>
+  <h1 style="color: brown;" class="titolo-grande" id="titolone">Primo CSS</h1>
 
   <!-- id ce ne è solo uno per pagina -->
   <p id="testo-principale"> <span class="testo-bold">Lorem ipsum dolor</span>, sit amet consectetur adipisicing elit. Eum ipsa sunt officia nobis non obcaecati, distinctio quidem maxime, <span style="color:red">facilis </span> recusandae consequatur animi, cupiditate fugiat ullam libero. Molestias velit cumque rerum?
@@ -49,11 +39,11 @@
   <p class="testo-secondario">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, eveniet?</p>
   <p class="testo-secondario">Lorem ipsum <span>dolor sit amet</span>  consectetur, adipisicing elit. Placeat, eveniet?</p>
   <p class="testo-secondario">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, <span>eveniet?</span> </p>
-  
+  <div class="container">
   <div class="box">
-
+    <p>Box centrato con margin: 20px auto </p>
   </div>
-
+</div>
   <section>
 
   </section>
@@ -62,15 +52,53 @@
     <div class="inner-box"></div>
   </div>
 
-  <p>Lorem ipsum, dolor sit amet <span class="testo-bold">consectetur adipisicing elit</span> . Similique omnis sequi voluptatem. Nesciunt enim quo id inventore eum culpa sit beatae alias. Assumenda autem tempora consequuntur quod, quos maiores nobis.</p>
+  <p class="testo">Lorem ipsum, dolor sit amet <span class="testo-bold">consectetur adipisicing elit</span> . Similique omnis sequi voluptatem. Nesciunt enim quo id inventore eum culpa sit beatae alias. Assumenda autem tempora consequuntur quod, quos maiores nobis.</p>
 
   <div class="box-piccolo box-arancio"></div>
   <div class="box-piccolo box-arancio2"></div>
   <div class="box-piccolo box-arancio3"></div>
 
   <div class="box-image"></div>
+<ul class="lista-principale">
+  <li>elemento lista</li>
+  <li>elemento lista</li>
+  <li>elemento lista</li>
+  <li>elemento lista</li>
+  <li>elemento lista</li>
+  <li>elemento lista</li>
+  <li>elemento lista</li>
+  <li>elemento lista</li>
+  </ul>
+  <ul class="lista-secondaria">
+  <li>elemento lista</li>
+  <li>elemento lista</li>
+  <li>elemento lista</li>
+  <li>elemento lista</li>
+  <li>eleme
+    nto lista</li>
 
-  
+</ul>
+<h3>Lista3</h3>
+  <ul class="lista-3">
+    <li>elemento lista 3</li>
+    <li>elemento lista 3</li>
+    <li>elemento lista 3</li>
+    <li>elemento lista 3</li>
+    <li>elemento lista 3</li>
+    <li>elemento lista 3</li>
+    <li>elemento lista 3</li>
+    <li>elemento lista 3</li>
+    
+    
+  </ul>
+  <h3>Lista4</h3>
+  <ul class="lista-4"></ul>
+  <li>elemento lista 4</li>
+  <li>elemento lista 4</li>
+  <li>elemento lista 4</li>
+  <li>elemento lista 4</li>
+  <li>elemento lista 4</li>
+  <li>elemento lista 4</li>
   
 </body>
 </html>
